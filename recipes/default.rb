@@ -12,4 +12,4 @@ gpgcheck=0
 enabled=1'
 end
 
-package 'mongodb'
+package 'mongodb-org'
