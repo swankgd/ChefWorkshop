@@ -1,5 +1,14 @@
 #
-# Cookbook:: install_mongo
+# Cookbook Name:: install_mongo
 # Recipe:: default
 #
-# Copyright:: 2018, The Authors, All Rights Reserved.
+# Copyright (c) 2016 The Authors, All Rights Reserved.
+
+file '/etc/yum.repos.d/monodb.repo' do
+	content 'name=MongoDB Repository
+	baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
+	gpgcheck=0
+	enabled=1'
+end
+
+
