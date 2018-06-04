@@ -16,3 +16,6 @@ Version 0.2.4
 - Added mongodb package install_mongo
 - Validation: rpm -qa | grep mongo should return installed mongo packages
 
+Version 0.3.0
+- Added service enable and start
+- Validation: service mongod status - validate "active (running)" status
