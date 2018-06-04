@@ -11,4 +11,4 @@ file '/etc/yum.repos.d/mongodb.repo' do
 	enabled=1'
 end
 
-package mongodb
+package 'mongodb'
