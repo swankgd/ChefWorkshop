@@ -9,6 +9,6 @@ ENVIRONMENT
 
 Version 0.1.0 
 - Initial commit.
-- Uses 'file' resource to create /etc/yum.repos.d/monodb.repo with x64 parameters
+- Uses 'file' resource to create /etc/yum.repos.d/mongodb.repo with x64 parameters
 - Validation: After execution of cookbook, the above file should exist on node with the correct contents
 
