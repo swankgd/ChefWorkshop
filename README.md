@@ -3,10 +3,10 @@
 ENVIRONMENT
 - Chef workstation = Windows 10, ChefDK version 3.0.36
 - Chef Server = Ubuntu 16.04 x64 running on virtual box. Chef-gem v. 12.19.36
-- Chef node = CentOS running on vagrant
+- Chef node = CentOS running on vagrant client version 13.8.5
 
 
-
+Error-free cookbook versions
 Version 0.1.0 
 - Initial commit.
 - Uses 'file' resource to create /etc/yum.repos.d/mongodb.repo with x64 parameters
